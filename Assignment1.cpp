@@ -1,5 +1,5 @@
 /*ASSIGNMENT 1:
-Name:sSAHIL DHAS
+Name:SAHIL DHAS
 Roll No. 23514
 Sub :Data Structures and algorithms
 */
