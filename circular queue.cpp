@@ -1,3 +1,8 @@
+/*ASSIGNMENT 3:
+Name:SAHIL DHAS
+Roll No. 23514
+Sub :Data Structures and algorithms
+*/
 #include<iostream>
 using namespace std;
 #define MAXSIZE 3
