@@ -186,6 +186,7 @@ void linSearch(student *a[],int u,float x)
 int main() 
 {
  int i=0,n,ch;
+ string cf;
  float m;
  student *s[60];
  
@@ -257,8 +258,8 @@ int main()
    cout<<"INVALID INPUT!!\n";
  }
  cout<<"WANT TO CONTINUE? (enter y or Y):\n";
- cin>>ch;
- if(ch==1)
+ cin>>cf;
+ if(cf=="Y"||"y")
  {
    goto loop1;
  }
