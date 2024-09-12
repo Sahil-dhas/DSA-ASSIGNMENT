@@ -41,7 +41,6 @@ int Delete()
 		int ele ;
 		ele = queue[front];
 		cout<<ele<<" is deleted at : "<<front<<endl;
-		jk
 	if(rear==(MAXSIZE-1)&&(front==0)||(front>rear))
 	{
 		front=-1;
