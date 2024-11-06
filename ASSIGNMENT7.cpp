@@ -1,12 +1,12 @@
 /*DSA ASSIGN NO.7
-*Name: Paras Deshpande
-*Roll no. 23519[s2]
+*Name: sahil dhas
+*Roll no. 23514[s1]
 *Problem Statement:
 *Represent a graph of your college campus using adjacency list /adjacency matrix. Nodes should 
 *represent the various departments/institutes and links should represent the distance between them. 
 *Find minimum spanning tree
-*a) Using Kruskal’s algorithm.
-*b) Using Prim’s algorithm.
+*a) Using Kruskalâ€™s algorithm.
+*b) Using Primâ€™s algorithm.
 */
 #include<iostream>
 using namespace std;
