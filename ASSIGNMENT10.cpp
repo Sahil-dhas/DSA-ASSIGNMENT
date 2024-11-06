@@ -12,7 +12,6 @@
 
 using namespace std;
 
-// Define a struct for Student data
 struct Student {
     string rollNumber;
     string name;
@@ -20,7 +19,6 @@ struct Student {
     string address;
 };
 
-// Function to read all students from file
 vector<Student> loadData(const string& filename) {
     vector<Student> students;
     ifstream file(filename.c_str());
@@ -41,7 +39,6 @@ vector<Student> loadData(const string& filename) {
     return students;
 }
 
-// Function to save all students to file
 void saveData(const string& filename, const vector<Student>& students) {
     ofstream file(filename.c_str());
     for (size_t i = 0; i < students.size(); ++i) {
@@ -53,7 +50,6 @@ void saveData(const string& filename, const vector<Student>& students) {
     file.close();
 }
 
-// Function to add a new student
 void addStudent(const string& filename) {
     Student student;
     cout << "Enter Roll Number: ";
@@ -79,7 +75,6 @@ void addStudent(const string& filename) {
     cout << "Student added successfully.\n";
 }
 
-// Function to delete a student
 void deleteStudent(const string& filename) {
     string rollNumber;
     cout << "Enter Roll Number of the student to delete: ";
@@ -105,7 +100,6 @@ void deleteStudent(const string& filename) {
     }
 }
 
-// Function to display a student's information
 void displayStudent(const string& filename) {
     string rollNumber;
     cout << "Enter Roll Number to search: ";
@@ -126,7 +120,6 @@ void displayStudent(const string& filename) {
     cout << "Student not found.\n";
 }
 
-// Main menu function
 void mainMenu(const string& filename) {
     while (true) {
         cout << "\nStudent Database Management\n";
